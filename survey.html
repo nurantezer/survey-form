@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="survey.css">
+</head>
+<body>
+    <header style="font-weight: 900; font-size: 30px;">Clarusway Survey Form </header>
+    <section id>
+        <p>Thank you for taking the time to help us improve the platform</p>
+        <label for="name">Name</label><br>
+        <input type="text" name="name" id="name" placeholder="Enter your name"><br><br>
+        <label for="surname">Surname</label><br>
+        <input type="text" name="surname" id="surname" placeholder="Enter your surname"><br> <br>
+        <label for="email">Email</label><br>
+        <input type="email" name="email" id="email" placeholder="user@clarusway.com">
+        <p>Which option best describes your current role?</p>
+        <select name="select" id="select">
+            <option value="select">Select current role</option>
+        </select>
+         <p>Would you recommend Clarusway to a friend?</p>
+         <input type="radio" name="de" id="de">
+         <label for="de">Definitely, Yes</label><br>
+         <input type="radio" name="de" id="de">
+         <label for="de">Maybe</label><br>
+         <input type="radio" id="de" name="de">
+         <label for="de">Not sure</label><br>
+         <input type="radio" name="de" id="de">
+         <label for="de">Definitely,No</label>
+         <p>What is your favorite feature of Clarusway?</p>
+         <select name="se" id="se">
+            <option value="se">Select an option</option>
+         </select>
+         <p>What would you like to see improved?(Check all that apply)</p>
+         <input type="checkbox" name="ce" id="ce">
+         <label for="ce">Front-end Procets</label><br>
+         <input type="checkbox" name="de" id="de">
+         <label for="de">Back-end Procets</label><br>
+         <input type="checkbox" name="fe" id="fe">
+         <label for="fe">Data Science</label><br>
+         <input type="checkbox" id="ge" name="ge">
+         <label for="ge">Addtional Courses</label>
+         <p>Any comments or suggestions?</p>
+         <textarea name="e" id="e" cols="15" rows="2" placeholder="Enter your comment here.Thanks for your"></textarea>
+         <input type="submit" value="Submit" name="sub" id="sub">
+    </section>
+</body>
+</html>
